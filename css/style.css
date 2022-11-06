@@ -70,12 +70,14 @@ main {
 }
 
 footer {
- font-family: 'Rajdhani', sans-serif;
  color: #3f3f3f;
  min-height: 20vh;
  display: flex;
  justify-content: center;
  align-items: center;
+ background-color: coral;
+ text-align: center;
+ color: white;
 }
 
 body {
@@ -143,4 +145,17 @@ ul li:hover a {
 
 .op-0 {
  opacity: 0;
+}
+
+.contenedor-detalle {
+ border-radius: 25px;
+ background-color: rgba(255, 127, 80, 0.106);
+}
+
+.contenedor-detalle h2 {
+ text-transform: capitalize;
+}
+
+.contenedor-detalle img {
+ transform: scale(1.8);
 }
